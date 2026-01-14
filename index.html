@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="navigateBar">
+      <section class="navigateBar">
         <div class="nav-up">
           <button type="submit">
             <svg
@@ -32,27 +32,43 @@
             id="search"
             placeholder="example"
           />
-          <button >
+          <button>
             <img
               src="iconsTest/circle-icons/full-color/png/128px/megaphone.png"
               alt="messages"
+              width="30px"
+              height="auto"
             />
           </button>
-        </div>
-        <div class="nav-down">
+
           <img
             src="picture-placeholder.png"
             alt="user-logo"
-            width="40px"
+            width="35px"
             height="auto"
           />
-          <p>hi there</p>
-          <p>User(@user)</p>
-          <button>new</button>
-          <button>upload</button>
-          <button>share</button>
+          <p>user name</p>
         </div>
-      </div>
+        <div class="nav-down">
+          <div class="user-log">
+            <img
+              src="picture-placeholder.png"
+              alt="user-logo"
+              width="40px"
+              height="auto"
+            />
+          <div class="user-greet">
+              <p id="greeting">hi there</p>
+              <p id="user">User(@user)</p>
+              </div>
+            </div>
+
+          <button id="new" class="nav-down-buttons">new</button>
+          <button id="upload" class="nav-down-buttons">upload</button>
+          <button id="share" class="nav-down-buttons">share</button>
+          </div>
+        </div>
+      </section>
     </header>
 
     <div class="body-content"></div>
